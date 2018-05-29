@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+// API key---AIzaSyDiQFku0XlPS6r6hSlEePWIqNCHOIjho88
+// parramatta- -33.815,151.001111
+//https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.815,151.001111&radius=5000&type=restaurant&keyword=food&key=AIzaSyDiQFku0XlPS6r6hSlEePWIqNCHOIjho88
+// foursquare  client id--14ZQBKTG4GYPMYVD4YUW0VWZR20SFKIISE1GPAG1KVN4L3AC
+// Client secret -- JIN5D0ANVWM5LOFZHE34ZFAKCNJAQT4AZX2SZVRX4LTQ4TXK
+//https://api.foursquare.com/v2/venues/search/location=-33.815,151.001111&radius=5000
+//https://api.foursquare.com/v2/venues/search?ll=-33.815,151.001111&client_id=14ZQBKTG4GYPMYVD4YUW0VWZR20SFKIISE1GPAG1KVN4L3AC&client_secret=JIN5D0ANVWM5LOFZHE34ZFAKCNJAQT4AZX2SZVRX4LTQ4TXK&v=YYYYMMDD
