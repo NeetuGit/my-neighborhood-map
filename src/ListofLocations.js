@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import LocationItem from './Location_Item';
 
 class LocationList extends Component {
-    /**
-     * Constructor
-     */
+
     constructor(props) {
         super(props);
         this.state = {
@@ -17,7 +15,7 @@ class LocationList extends Component {
         this.toggleSuggestions = this.toggleSuggestions.bind(this);
     }
 
-    /**
+    /*
      * Filter Locations based on user query
      */
     filterLocations(event) {
@@ -45,8 +43,8 @@ class LocationList extends Component {
         });
     }
 
-    /**
-     * Show and hide suggestions
+    /*
+     * Show and hide toggle
      */
     toggleSuggestions() {
         this.setState({
@@ -54,7 +52,7 @@ class LocationList extends Component {
         });
     }
 
-    /**
+    /*
      * Render function of LocationList
      */
     render() {
@@ -66,12 +64,12 @@ class LocationList extends Component {
 
         return (
             <div className="search">
-                <input role="search" aria-labelledby="filter" id="search-field" className="search-field" type="text" placeholder="Filter"
+                <input role="search" aria-labelledby="filter" id="search-field" className="search-field" type="text" placeholder="Search Filter"
                        value={this.state.query} onChange={this.filterLocations}/>
                 <ul>
                     {this.state.suggestions && locationlist}
                 </ul>
-                <button className="button" onClick={this.toggleSuggestions}>Show/Hide Suggestions</button>
+                <button className="button" onClick={this.toggleSuggestions}>Show/Hide</button>
             </div>
         );
     }

@@ -1,9 +1,7 @@
 import React from 'react';
 
 class LocationItem extends React.Component {
-    /**
-     * Render function of LocationItem
-     */
+  
     render() {
         return (
             <li

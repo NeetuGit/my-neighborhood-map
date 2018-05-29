@@ -25,7 +25,7 @@ export const allocations =[
         'type': "Gym",
         'latitude': -33.79793677,
         'longitude': 151.00423,
-        'streetAddress': "Unit2\/23 Castle St, North Parramata"
+        'streetAddress': "Unit2/23 Castle St, North Parramata"
     },
     {
         'name': "ProfessioNail",
@@ -60,7 +60,7 @@ export const allocations =[
         'type': "Coffee Shop",
         'latitude': -33.817833581665,
         'longitude': 151.00279152274194,
-        'streetAddress': "Westfield Parramatta, Shop 2164\/2165, Level 2, 159-175 Church Street"
+        'streetAddress': "Westfield Parramatta, Shop 2164/2165, Level 2, 159-175 Church Street"
     },
     {
         'name': "Cumberland Psychiatric Hospital",

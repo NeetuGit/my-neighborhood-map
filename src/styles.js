@@ -1,5 +1,6 @@
+// Create a styles array to use with the map.
 export const styles =  [
-{ 
+{
   featureType: 'water',
   stylers: [
     { color: '#19a0d8' }
