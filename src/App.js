@@ -38,7 +38,7 @@ class App extends Component {
         var mapview = document.getElementById('map');
         mapview.style.height = window.innerHeight + "px";
 
-        //creating a new map - only center and zoom are required.
+        //creates a new map - only center and zoom are required.
         var map = new window.google.maps.Map(mapview, {
             center: {lat:  -33.8032, lng: 151.0055},
             zoom: 15,
