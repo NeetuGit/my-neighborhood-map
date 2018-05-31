@@ -90,6 +90,8 @@ class App extends Component {
         });
     }
 
+
+
     /**
      * Open the infowindow for the marker
      * @param {object} location marker
