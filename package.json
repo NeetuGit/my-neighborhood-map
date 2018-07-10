@@ -1,7 +1,7 @@
 {
   "name": "my-neighborhood-map",
   "version": "0.1.0",
-  "home": "https://NeetuGit.github.io/my-neighbourhood-map",
+  "home": "https://NeetuGit.github.io/my-neighborhood-map",
   "private": true,
   "dependencies": {
     "google-maps-react": "^2.0.2",
